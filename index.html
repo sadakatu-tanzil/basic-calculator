@@ -10,6 +10,83 @@
   </head>
 
   <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="calculator__screen">
+          <p class="calculator__output">0</p>
+        </div>
+        <!-- calculator screen -->
+
+        <div class="calculator__buttons">
+          <div class="calculator__button-row">
+            <button class="calculator__button" data-button="numeric" data-value="7">
+              <span>7</span>
+            </button>
+            <button class="calculator__button" data-button="numeric" data-value="8">
+              <span>8</span>
+            </button>
+            <button class="calculator__button" data-button="numeric" data-value="9">
+              <span>9</span>
+            </button>
+            <button class="calculator__button" data-button="operator" data-value="/">
+              <span>/</span>
+            </button>
+          </div>
+          <!-- button row 1 -->
+
+          <div class="calculator__button-row">
+            <button class="calculator__button" data-button="numeric" data-value="4">
+              <span>4</span>
+            </button>
+            <button class="calculator__button" data-button="numeric" data-value="5">
+              <span>5</span>
+            </button>
+            <button class="calculator__button" data-button="numeric" data-value="6">
+              <span>6</span>
+            </button>
+            <button class="calculator__button" data-button="operator" data-value="*">
+              <span>*</span>
+            </button>
+          </div>
+          <!-- button row 2 -->
+
+          <div class="calculator__button-row">
+            <button class="calculator__button" data-button="numeric" data-value="1">
+              <span>1</span>
+            </button>
+            <button class="calculator__button" data-button="numeric" data-value="2">
+              <span>2</span>
+            </button>
+            <button class="calculator__button" data-button="numeric" data-value="3">
+              <span>3</span>
+            </button>
+            <button class="calculator__button" data-button="operator" data-value="-">
+              <span>-</span>
+            </button>
+          </div>
+          <!-- button row 3 -->
+
+          <div class="calculator__button-row">
+            <button class="calculator__button" data-button="numeric" data-value="0">
+              <span>0</span>
+            </button>
+            <button class="calculator__button" data-value="." disabled>
+              <span>.</span>
+            </button>
+            <button class="calculator__button" data-button="equal" data-value="=">
+              <span>=</span>
+            </button>
+            <button class="calculator__button" data-button="operator" data-value="+">
+              <span>+</span>
+            </button>
+          </div>
+          <!-- button row 4 -->
+        </div>
+        <!-- calculator buttons -->
+      </div>
+      <!-- calculator -->
+    </div>
+    <!-- container -->
 
     <script src="./scripts.js"></script>
   </body>
